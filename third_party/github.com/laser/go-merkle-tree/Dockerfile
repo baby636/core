@@ -1,4 +1,4 @@
-FROM golang:1.10-stretch
+FROM golang:1.17.6-stretch
 
 COPY . /opt/app
 WORKDIR /opt/app
